@@ -4,7 +4,7 @@
 
 构建更轻便灵活的Web服务
 
-[<i class="iconfont icon-github"></i> 工蜂小组](https://git.code.oa.com/kua)
+[<i class="iconfont icon-github"></i> Git Repo](https://github.com/kukumoon/kua)
 [马上开始 <i class="iconfont icon-down"></i>](#main)
 
 <!-- background image -->

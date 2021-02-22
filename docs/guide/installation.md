@@ -17,13 +17,6 @@ $ kua init example-project
 $ cd example-project
 ```
 
-当然，你也可以选择直接clone一份现成的示例应用：
-
-```shell script
-$ git clone https://git.code.oa.com/kua/kua-demo
-$ cd kua-demo && npm install
-```
-
 记得启动项目：
 
 ```shell script
