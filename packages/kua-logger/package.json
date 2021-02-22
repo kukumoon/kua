@@ -1,0 +1,11 @@
+{
+  "name": "@kukumoon/kua-logger",
+  "version": "1.0.0",
+  "description": "kua logger extension",
+  "dependencies": {
+    "mkdirp": "^1.0.4",
+    "winston": "^3.2.1"
+  },
+  "author": "kkukuli",
+  "license": "ISC"
+}

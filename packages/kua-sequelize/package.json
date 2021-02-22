@@ -1,0 +1,16 @@
+{
+  "name": "@kukumoon/kua-sequelize",
+  "version": "1.0.0",
+  "description": "kua-sequelize 插件",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cls-hooked": "^4.2.2",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.13",
+    "uppercamelcase": "^3.0.0"
+  }
+}

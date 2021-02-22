@@ -1,0 +1,11 @@
+{
+  "name": "@kukumoon/kua-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ioredis": "^4.17.3"
+  },
+  "author": "kkukuli",
+  "license": "ISC"
+}

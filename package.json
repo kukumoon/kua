@@ -1,0 +1,50 @@
+{
+  "scripts": {
+    "commit": "git-cz",
+    "pretty": "prettier --write --single-quote --tab-width 4 \"packages/**/*.js\"",
+    "compile": "tsc --build tsconfig.build.json",
+    "compile:clean": "tsc --build tsconfig.build.json --clean",
+    "postinstall": "lerna bootstrap --registry=https://mirrors.tencent.com/npm",
+    "prepublish": "npm run compile",
+    "lint": "eslint --fix 'packages/**/*.js'"
+  },
+  "dependencies": {
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.2.1",
+    "@commitlint/config-conventional": "^7.1.2",
+    "@commitlint/config-lerna-scopes": "^7.2.1",
+    "babel-eslint": "^10.1.0",
+    "commitizen": "^3.0.4",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^6.8.0",
+    "husky": "^1.0.0-rc.13",
+    "lerna": "^2.11.0",
+    "lint-staged": "^7.3.0",
+    "mkdirp": "^0.5.1",
+    "prettier": "^1.15.2",
+    "rimraf": "^2.6.2"
+  },
+  "lint-staged": {
+    "linters": {
+      "*.js": [
+        "prettier --write --single-quote --tab-width 4",
+        "eslint --fix",
+        "git add"
+      ],
+      "*.ts": [
+        "prettier --write --single-quote --tab-width 4",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "examples/**/*.js"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
