@@ -20,6 +20,3 @@
     - [kua-sequelize - 数据库查询](plugin/kua-sequelize.md)
     - [kua-redis - redis模块](plugin/kua-redis.md)
     - [kua-graphql - apollo server](plugin/kua-graphql.md)
-- <span class="iconfont icon-factory"></span> 微瓴插件
-    - [kua-welink-logger - 微瓴日志](plugin/kua-welink-logger.md)
-    - [kua-welink-config-connector - 实例配置](plugin/kua-welink-config-connector.md)
