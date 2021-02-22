@@ -1,4 +1,4 @@
-<img src="./_media/icon.png" width="150" height="150"/>
+<img src="https://raw.githubusercontent.com/kukumoon/kua/master/docs/_media/icon.png" width="150" height="150"/>
 
 # kua
 
@@ -8,4 +8,4 @@
 [马上开始 <i class="iconfont icon-down"></i>](#main)
 
 <!-- background image -->
-![](./_media/background.png)
+![](https://raw.githubusercontent.com/kukumoon/kua/master/docs/_media/background.png)

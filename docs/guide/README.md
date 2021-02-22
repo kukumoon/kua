@@ -15,7 +15,7 @@
 
 中间件洋葱图：
 
-![](../_media/1-1.png)
+![](https://raw.githubusercontent.com/kukumoon/kua/master/docs/_media/1-1.png)
 
 所有的请求经过一个中间件的时候都会执行两次，对比 `Express` 形式的中间件，Koa 的模型可以非常方便的实现后置处理逻辑。
 
@@ -49,7 +49,7 @@ async function onerror(ctx, next) {
   
 ### 框架设计图
 
-<img src="../_media/1-2.jpeg" width="800" />
+<img src="https://raw.githubusercontent.com/kukumoon/kua/master/docs/_media/1-2.jpeg" width="800" />
 
 ### 框架原理简介
   
